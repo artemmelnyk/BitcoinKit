@@ -14,11 +14,11 @@ let package = Package(
     targets: [
         .target(
             name: "BitcoinKit",
-            dependencies: ["BitcoinKitPrivate", "secp256k1", "Random"]
+            dependencies: ["BitcoinKitPrivate", "secp256k1.new", "Random"]
         ),
         .target(
             name: "BitcoinKitPrivate",
-            dependencies: ["COpenSSL", "secp256k1"]
+            dependencies: ["COpenSSL", "secp256k1.new"]
         ),
         .testTarget(
             name: "BitcoinKitTests",

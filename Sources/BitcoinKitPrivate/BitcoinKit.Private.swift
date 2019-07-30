@@ -8,7 +8,7 @@
 
 import Foundation
 import COpenSSL
-import secp256k1
+import secp256k1.new
 
 public class _Hash {
     public static func sha1(_ data: Data) -> Data {
